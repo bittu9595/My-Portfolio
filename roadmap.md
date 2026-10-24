@@ -1,0 +1,11 @@
+# Portfolio updates
+- [x] Correct Elegance's deployed URL.
+- [x] Refresh the portfolio with a prominent portrait and polished, reduced-motion-aware animations.
+- [x] Verify the refreshed home and projects pages in light/dark mode and on small screens.
+- [x] Update the role to Senior Full Stack Engineer and Frontend Expert.
+- [x] Replace sample projects with the four requested GitHub projects, descriptions and deployment links; mark the credit card app's unlisted deployment.
+- [x] Verify the updated portfolio with tests and desktop/mobile browser checks.
+- [x] Update Pavan's name and contact details.
+- [x] Display the uploaded profile photo.
+- [x] Add and verify light/dark mode switching.
+- [x] Update experience: British Petroleum via Infosys (2020 — now) and LTI Mindtree Ltd (2018 — 2020).
