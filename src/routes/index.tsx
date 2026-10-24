@@ -13,8 +13,6 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: profile.tagline },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:image", content: profile.photo },
-      { name: "twitter:image", content: profile.photo },
     ],
   }),
   component: Index,

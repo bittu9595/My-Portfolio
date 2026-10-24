@@ -1,10 +1,12 @@
-import portrait from "@/assets/pavan_profile.jpg.asset.json";
+// Bundled image import so the photo ships with the code and works on any
+// host (Vercel, Netlify, self-hosted) — not just the Lovable asset CDN.
+import portrait from "@/assets/pavan_profile.jpg";
 
 // Single source of truth for every page and the AI assistant.
 export const profile = {
   name: "Pavan Bhansali",
   handle: "pavanbhansali",
-  photo: portrait.url,
+  photo: portrait,
   role: "Senior Full Stack Engineer and Frontend Expert",
   location: "London, UK",
   tagline: "I design and build calm, fast software for humans.",

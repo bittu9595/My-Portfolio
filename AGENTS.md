@@ -12,5 +12,5 @@
 - Portfolio content lives in src/lib/profile.ts; pages and the AI assistant read from it so content stays in one place.
 - AI chat calls go through a server function (src/lib/ask.functions.ts) so the AI key never reaches the browser.
 - Theme selection is a browser-only preference persisted after hydration; global CSS theme tokens style all pages consistently.
-- Profile photos use a Lovable Assets pointer referenced by the shared profile so all portrait placements use the same asset.
+- Profile photo is a bundled image import (src/assets/pavan_profile.jpg) referenced by the shared profile so all portrait placements use the same asset and it works on any host, including non-Lovable deploys.
 - Home and project listings reuse ProjectCard and Reveal; shared presentation and intersection-based motion keep both views consistent and honor reduced-motion preferences.
